@@ -8,6 +8,7 @@
 // 4 -> 16
 // -3 -> 9
 // -7 -> 49  
+Console.Clear();
 Console.WriteLine("Введите число");
 int num = int.Parse(Console.ReadLine());
 int square = num * num;

@@ -4,6 +4,7 @@
 // 456 -> 6
 // 782 -> 2
 // 918 -> 8
+Console.Clear();
 Console.WriteLine("Введите трехзначное число");
 int num1 = int.Parse(Console.ReadLine());
 if (num1 < 1000 && num1 > 99)
