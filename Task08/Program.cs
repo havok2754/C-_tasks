@@ -12,6 +12,6 @@ if (num1 < 2) {
 }
 else while (count <= num1)
 {
-    Console.Write($"{count}, ");
+    Console.Write($"Все чётные числа от 1 до N: {count}, ");
     count = count + 2;
 }
