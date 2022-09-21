@@ -4,6 +4,7 @@
 // 4 -> 24
 // 5 -> 120
 
+Console.Clear();
 Console.WriteLine("Введите чиcло: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
