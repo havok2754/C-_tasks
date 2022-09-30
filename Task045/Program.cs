@@ -9,7 +9,8 @@ int[] CreateArrayRndInt (int size, int min, int max)
     Random rnd = new Random();
     for (int i = size - 1; i >= 0; i--)
     {
-        array[i] = rnd.Next(min, max + 1);
+        array[i, j] = rnd.NextDouble() * 100;
+        array[i, j] = Math.Round(array[i, j], 1);
     }
     return array;
 }
