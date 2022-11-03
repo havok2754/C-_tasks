@@ -68,6 +68,5 @@ int[,] matrix = CreateMatrixRndInt(6, 6, 0, 10);
 PrintMatrix(matrix);
 Console.WriteLine();
 double[] amc = ArithMeanCol(matrix);
-// Console.WriteLine(amc);
 PrintArray(amc);
 

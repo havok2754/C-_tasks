@@ -7,11 +7,6 @@
 
 
 Console.Clear();
-// Console.WriteLine($"Введите номер строки элемента: ");
-// int a = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine($"Введите номер столбца элемента: ");
-// int b = Convert.ToInt32(Console.ReadLine());
-
 int[,] CreateMatrixRndInt (int rows, int columns, int min, int max)
 {
     int[,] matrix = new int[rows, columns];
